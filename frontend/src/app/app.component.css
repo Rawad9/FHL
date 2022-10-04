@@ -1,0 +1,16 @@
+.ui.vertical.menu {
+  width: 15%;
+}
+.pusher {
+  width: 85%;
+  margin-left: 15%;
+}
+.ui.menu {
+  flex-direction: row-reverse;
+}
+.topbar {
+  background-color: #fdba06;
+}
+.noborder {
+  border-radius: 0;
+}

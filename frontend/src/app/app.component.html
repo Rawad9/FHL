@@ -1,0 +1,33 @@
+<div class="ui sidebar visible vertical menu">
+  <div class="item">
+    <img class="ui mini image" src="/images/logo.png" />
+  </div>
+  <a
+    class="item"
+    routerLink="./"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+  >
+    Dashboard
+  </a>
+  <a class="item" routerLink="account" routerLinkActive="active"> Account </a>
+  <a class="item" routerLink="records" routerLinkActive="active"> Records </a>
+  <a class="item" routerLink="library" routerLinkActive="active">
+    Funnel Library
+  </a>
+  <a class="item"> Design On-Demand </a>
+  <a class="item"> Design Assets + Trainings </a>
+  <a class="item"> Make Money </a>
+</div>
+<div class="pusher">
+  <!-- Site content !-->
+  <div class="ui menu topbar noborder">
+    <div class="item">
+      <div class="ui primary button">Login</div>
+    </div>
+    <div class="item">
+      <img class="ui mini image" src="/images/logo.png" />
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>
